@@ -15,7 +15,6 @@ export default class App extends Component {
   onHandleClick = (e) => {
     const name = e.target.name;
     this.setState((prev) => ({
-      ...prev,
       [name]: this.state[name] + 1,
     }));
   };

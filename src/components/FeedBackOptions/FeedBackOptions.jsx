@@ -21,7 +21,7 @@ const FeedBackOpt = ({onLeaveFeedback,btnNames,reset}) => {
 
 FeedBackOpt.propTypes = {
     onLeaveFeedback: PropTypes.func.isRequired,
-    btnNames:PropTypes.array.isRequired,
+    btnNames:PropTypes.object.isRequired,
 }
 
 export default FeedBackOpt;
